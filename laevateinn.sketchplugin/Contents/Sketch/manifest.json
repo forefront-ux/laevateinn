@@ -1,24 +1,26 @@
 {
-  "compatibleVersion": 3,
-  "bundleVersion": 1,
-  "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "my-command.js"
+      "name": "🗡 Laevateinn",
+      "identifier": "export",
+      "script": "laevateinn.js",
+      "handler": "exportAction"
     }
   ],
   "menu": {
-    "title": "laevateinn",
+    "isRoot": true,
     "items": [
-      "my-command-identifier"
+      "export"
     ]
   },
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.sketchlaevateinn.Laevateinn",
+  "icon": "icons/laevateinn-icon.png",
+  "description": "Generate Design Token To Developer!",
+  "disableCocoaScriptPreprocessor": true,
   "version": "0.1.0",
   "name": "laevateinn",
-  "identifier": "laevateinn",
-  "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
   "author": "Kuma Li",
   "authorEmail": "li.jun.kuma@gmail.com"

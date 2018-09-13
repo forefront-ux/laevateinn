@@ -1,0 +1,1 @@
+export { fontWeights } from './typography';

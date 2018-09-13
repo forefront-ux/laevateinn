@@ -21,5 +21,8 @@
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
   },
-  "author": "Kuma Li <li.jun.kuma@gmail.com>"
+  "author": "Kuma Li <li.jun.kuma@gmail.com>",
+  "dependencies": {
+    "theo": "^8.0.0-beta.2"
+  }
 }
